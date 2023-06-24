@@ -8,20 +8,3 @@ document.getElementById("generateNumber").onclick = function() {
     generatedNumber.textContent = value;
 }
 
-// Stop showing footer text when keyboard is active in mobile
-
-const textElement = document.getElementById('footerText');
-
-function handleTextVisibility() {
-  const isMobile = window.innerWidth <= 768; 
-  const isKeyboardActive = window.innerHeight < window.outerHeight;
-
-  if (isMobile && isKeyboardActive) {
-    textElement.style.display = 'none';
-  } else {
-    textElement.style.display = 'block';
-  }
-}
-
-window.addEventListener('resize', handleTextVisibility);
-window.addEventListener('scroll', handleTextVisibility);
