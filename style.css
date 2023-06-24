@@ -1,0 +1,120 @@
+body {
+    font-family: sans-serif;
+    background-image: linear-gradient(to right, #040118 10%, #fd1f3d 90%);
+    color: white;
+
+}
+
+input {outline: none;}
+
+.title {
+    font-size: 30px;
+    font-weight: bolder;
+    text-align: center;
+    color: white;
+    text-shadow: 2px 2px 4px #000000;
+    margin-top: 60px;
+}
+
+.minnum {
+    position: fixed;
+    left: 50%;
+    transform: translateX(-50%);
+    top: 190px;
+
+    height: 35px;
+    max-width: 250px;
+    font-size: 20px;
+    font-weight: bolder;
+}
+
+.maxnum {
+    position: fixed;
+    left: 50%;
+    transform: translateX(-50%);
+    top: 260px;
+
+    height: 35px;
+    max-width: 250px;
+    font-size: 20px;
+    font-weight: bolder;
+}
+
+hr {
+    width: 250px;
+    position: fixed;
+    top: 320px;
+    left: 50%;
+    transform: translateX(-50%);
+    box-shadow: 2px 2px 4px #000000;
+}
+
+.view {
+    position: absolute;
+    left: 940px;
+    top: 330px;
+    text-shadow: 2px 2px 4px #000000;
+}
+
+.generate {
+    border: none;
+    width: 170px;
+    height: 60px;
+    border-radius: 10px;
+    font-size: 20px;
+    font-weight: bolder;
+    color: #fd1f3d;
+    background-color: #040118;
+    position: absolute;
+    left: 870px;
+    top: 420px;
+    cursor: pointer;
+}
+
+
+.view {
+    position: absolute;
+    left: 49.5%;
+    top: 40%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    font-size: 25px;
+    font-weight: bold;
+    text-shadow: 2px 2px 4px #000000;
+}
+
+.generate {
+    border: none;
+    width: 170px;
+    height: 60px;
+    border-radius: 10px;
+    font-size: 20px;
+    font-weight: bolder;
+    color: #fd1f3d;
+    background-color: #040118;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    cursor: pointer;
+}
+
+.generatedNumberH1 {
+    position: fixed;
+    left: 50%;
+    transform: translateX(-50%);
+    top: -40px;
+
+    font-size: 32px;
+}
+
+
+.footer {
+    font-size: 18px;
+    font-weight: bolder;
+    color: white;
+    position: fixed;
+    left: 50%;
+    transform: translateX(-50%);
+    bottom: 20px;
+}
