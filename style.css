@@ -51,34 +51,11 @@ hr {
 
 .view {
     position: absolute;
-    left: 940px;
-    top: 330px;
-    text-shadow: 2px 2px 4px #000000;
-}
-
-.generate {
-    border: none;
-    width: 170px;
-    height: 60px;
-    border-radius: 10px;
-    font-size: 20px;
-    font-weight: bolder;
-    color: #fd1f3d;
-    background-color: #040118;
-    position: absolute;
-    left: 870px;
-    top: 420px;
-    cursor: pointer;
-}
-
-
-.view {
-    position: absolute;
-    left: 49.5%;
-    top: 40%;
+    left: 50%;
+    top: 380px;
     transform: translate(-50%, -50%);
     text-align: center;
-    font-size: 25px;
+    font-size: 26px;
     font-weight: bold;
     text-shadow: 2px 2px 4px #000000;
 }
@@ -92,21 +69,14 @@ hr {
     font-weight: bolder;
     color: #fd1f3d;
     background-color: #040118;
-    position: absolute;
+    position: relative;
     left: 50%;
-    top: 50%;
-    transform: translate(-50%, -50%);
+    transform: translateX(-50%);
+    top: 300px;
     cursor: pointer;
 }
 
-.generatedNumberH1 {
-    position: fixed;
-    left: 50%;
-    transform: translateX(-50%);
-    top: -40px;
 
-    font-size: 32px;
-}
 
 
 .footer {
